@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios Emmet</title>
+</head>
+<body>
+<!-- Ejercicio 1: -->
+
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    ul>li*3
+
+<!-- Ejercicio 2: -->
+
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Lorem1</th>
+                <th>Lorem2</th>
+            </tr>
+            <tr>
+                <th>Lorem1</th>
+                <th>Lorem2</th>
+            </tr>
+            <tr>
+                <th>Lorem1</th>
+                <th>Lorem2</th>
+            </tr>
+            <tr>
+                <th>Lorem1</th>
+                <th>Lorem2</th>
+            </tr>
+            <tr>
+                <th>Lorem1</th>
+                <th>Lorem2</th>
+            </tr>
+            <tr>
+                <th>Lorem1</th>
+                <th>Lorem2</th>
+            </tr>
+            <tr>
+                <th>Lorem1</th>
+                <th>Lorem2</th>
+            </tr>
+            <tr>
+                <th>Lorem1</th>
+                <th>Lorem2</th>
+            </tr>
+            <tr>
+                <th>Lorem1</th>
+                <th>Lorem2</th>
+            </tr>
+            <tr>
+                <th>Lorem1</th>
+                <th>Lorem2</th>
+            </tr>
+        </thead>
+    </table>
+
+    table[border="1"]>(thead>tr*10>th{Lorem$}*2)
+
+<!-- Ejercicio 3 -->
+
+    <h1 class="text text-titulo">Ola mundo</h1>
+
+    h1.text.text-titulo{Ola mundo}
+
+<!-- Ejercicio 4 -->
+
+    <div>
+    <p>datos</p>
+    <p>datos</p>
+    </div>
+
+    div>p{datos}*2
+
+
+</body>
+</html>
